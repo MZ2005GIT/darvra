@@ -8,6 +8,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/brp single.unity
+    guid: ab87d11da6d96f843bfe3ecf6b8a89ba
+  - enabled: 1
+    path: Assets/Scenes/rafia.unity
+    guid: e0b079e7666a5294b937d449dbe77fa2
+  - enabled: 1
+    path: Assets/Scenes/ifrah.unity
+    guid: 4ee5814d13e843e4aa20f15e644f86ad
+  - enabled: 1
+    path: Assets/Scenes/aasiya.unity
+    guid: d62ee457b3762c843a720219993c289f
+  - enabled: 1
+    path: Assets/Scenes/mashal.unity
+    guid: 1a07e5ff5da2024429c7b5817e0f70cf
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0c816f022c94b364c89ef8c7f11772bd,
       type: 2}
