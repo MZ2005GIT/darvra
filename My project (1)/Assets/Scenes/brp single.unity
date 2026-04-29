@@ -8949,6 +8949,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1160539254, guid: b9cad854e060c414db08de61f1d91180, type: 3}
+      propertyPath: m_MinMoveDistance
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1160539257, guid: b9cad854e060c414db08de61f1d91180, type: 3}
+      propertyPath: m_MaxHeight
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8542523309128515725, guid: b9cad854e060c414db08de61f1d91180,
         type: 3}
       propertyPath: m_ModelPrefab
