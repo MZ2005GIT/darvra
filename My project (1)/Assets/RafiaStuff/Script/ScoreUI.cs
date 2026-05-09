@@ -6,7 +6,7 @@ using TMPro;
 public class ScoreUI : MonoBehaviour
 {
 
-    //[SerializeField] private hitTarget gs;
+
     [SerializeField] private TextMeshProUGUI scoretext;
     public static int score = 0;
     public static ScoreUI instance;
@@ -15,9 +15,11 @@ public class ScoreUI : MonoBehaviour
     {
         instance = this;
     }
-    public static void Addscore(int score)
+    public static void Addscore(int point)
     {
-        score += score;
+
+        score += point;
+        if (score < 0) score = 0;
         ScoreUI.instance.UpdateUI();
     }
     public void UpdateUI()
