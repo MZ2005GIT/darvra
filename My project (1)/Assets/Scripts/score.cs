@@ -10,12 +10,16 @@ public class score : MonoBehaviour
     private TextMeshProUGUI scoretext;
 
     [SerializeField]
+    private TextMeshProUGUI highscoretext;
+
+    [SerializeField]
     private GameObject ball;
 
     private int scoretotal;
 
     void Start()
     {
+        UpdateHighscore();
         UpdateText();
     }
 
@@ -26,11 +30,28 @@ public class score : MonoBehaviour
             scoretotal++;
             Debug.Log(scoretotal);
             UpdateText();
+            UpdateHighscore();
         }
     }
 
     private void UpdateText()
     {
         scoretext.text = scoretotal.ToString();
+        highscoretext.text = "Highscore: " + PlayerPrefs.GetInt("BBhighscore").ToString();
+    }
+
+    private void UpdateHighscore()
+    {
+        if (PlayerPrefs.HasKey("BBhighscore"))
+        {
+            if (scoretotal > PlayerPrefs.GetInt("BBhighscore"))
+            {
+                PlayerPrefs.SetInt("BBhighscore", scoretotal);
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetInt("BBhighscore", scoretotal);
+        }
     }
 }
