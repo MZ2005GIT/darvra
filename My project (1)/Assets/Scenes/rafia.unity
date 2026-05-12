@@ -96,7 +96,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: b18317193b82b0a468f95aa63e88610c,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -514,8 +515,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79183917}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -39.4}
-  m_LocalScale: {x: 0.08461639, y: 0.07407413, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -22.97}
+  m_LocalScale: {x: 0.055298503, y: 0.04840892, z: 0.65352}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 466906790}
@@ -524,7 +525,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.6, y: 113.31}
+  m_AnchoredPosition: {x: -44.8, y: 110.24}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &79183923
@@ -1546,7 +1547,7 @@ PrefabInstance:
     - target: {fileID: 8542523309148211893, guid: b9cad854e060c414db08de61f1d91180,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 109.04
+      value: 107.1
       objectReference: {fileID: 0}
     - target: {fileID: 8542523309148211893, guid: b9cad854e060c414db08de61f1d91180,
         type: 3}
@@ -1852,7 +1853,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -117.240234, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2314,8 +2315,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048333835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -50.06, y: 107.43, z: -40.6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -46.14, y: 107.15, z: -23.754}
+  m_LocalScale: {x: 0.65352, y: 0.65352, z: 0.65352}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2841,7 +2842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1540884961
 RectTransform:
   m_ObjectHideFlags: 0
