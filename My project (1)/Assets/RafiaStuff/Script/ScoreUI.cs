@@ -8,12 +8,14 @@ public class ScoreUI : MonoBehaviour
 
 
     [SerializeField] private TextMeshProUGUI scoretext;
+    public GameObject panel;
     public static int score = 0;
     public static ScoreUI instance;
 
     void Awake()
     {
         instance = this;
+        panel.SetActive(false);
     }
     public static void Addscore(int point)
     {
@@ -25,5 +27,7 @@ public class ScoreUI : MonoBehaviour
     public void UpdateUI()
     {
         scoretext.text = "Score: " + score;
+        if (score >= 30)
+            panel.SetActive(true);
     }
 }
